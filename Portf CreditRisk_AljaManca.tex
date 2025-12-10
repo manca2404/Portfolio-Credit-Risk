@@ -1,0 +1,360 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\geometry{margin=1in}
+\setstretch{1.2}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    {\large University of Ljubljana\\[0.5cm]
+    School of Economics and Business \par}
+    \vspace{5cm}
+    {\LARGE \textbf{Portfolio Credit Risk Models:\\A Comprehensive Review}\par}
+    \vspace{10cm}
+    {\large Risk Management 2025/26\\[0.2cm]
+    Author: Alja Dostal, Manca Kav\v{c}i\v{c}\\[0.2cm]
+    Date: \today\par}
+\end{titlepage}
+
+% ------------------------
+% TABLE OF CONTENTS
+% ------------------------
+\tableofcontents
+\newpage
+
+% ------------------------
+% MAIN TEXT
+% ------------------------
+
+\begin{abstract}
+This paper provides a comprehensive overview of portfolio credit risk modelling 
+frameworks, including structural, reduced-form, actuarial, copula-based, and 
+macro-econometric approaches. It presents a taxonomy of models, discusses 
+theoretical foundations, evaluates practical applications, and highlights key 
+strengths and limitations. A comparative table summarises the major portfolio 
+credit risk models widely used in practice.
+\end{abstract}
+
+Credit risk---the potential loss arising from a counterparty's failure to meet 
+contractual obligations---remains one of the central risks in financial 
+institutions. While single-obligor analysis focuses on the creditworthiness of 
+individual borrowers, portfolio credit risk concerns the joint behaviour of many 
+borrowers, correlations between defaults, and the distribution of potential 
+losses.
+borrowers, correlations between defaults, and the distribution of potential 
+losses.
+
+Portfolio credit risk modelling provides estimates of expected loss (EL), 
+unexpected loss (UL), and tail risk measures such as Value-at-Risk (VaR) and 
+Expected Shortfall (ES). These measures are essential for economic capital, 
+credit portfolio optimisation, stress testing, and regulatory compliance under 
+Basel II and Basel III.
+
+This paper provides a structured overview of the most widely used modelling 
+frameworks and assesses their strengths and weaknesses.
+
+\section{Conceptual Foundations of Portfolio Credit Risk}
+
+Portfolio credit risk models aim to quantify the loss distribution:
+\[
+L = \sum_{i=1}^{n} EAD_i \cdot LGD_i \cdot D_i,
+\]
+where $D_i$ is a default indicator. The main challenge is modelling the joint 
+distribution of defaults and exposures.
+
+Key modelling dimensions include:
+\begin{itemize}
+    \item top-down vs.\ bottom-up approaches,
+    \item default-mode vs.\ mark-to-market models,
+    \item conditional vs.\ unconditional models,
+    \item structural vs.\ reduced-form models.
+\end{itemize}
+
+Each modelling philosophy captures different aspects of credit portfolio behaviour.
+
+\section{Typology of Portfolio Credit Risk Models}
+
+\subsection{Top-Down vs.\ Bottom-Up Models}
+
+\subsubsection{Bottom-Up Models}
+Bottom-up models describe credit risk at the obligor level and aggregate results 
+to the portfolio. Examples include the Merton/KMV model, CreditMetrics, 
+Gaussian copula models, and CreditRisk+.
+
+Advantages:
+\begin{itemize}
+    \item granular risk insights,
+    \item suitable for optimisation,
+    \item flexible dependence modelling.
+\end{itemize}
+
+Disadvantages:
+\begin{itemize}
+    \item computationally intensive,
+    \item require detailed obligor-level data.
+\end{itemize}
+
+\subsubsection{Top-Down Models}
+Top-down approaches treat the portfolio as a whole, without modelling individual 
+obligors. Examples include Poisson cluster models and loss distribution 
+approaches.
+
+Advantages:
+\begin{itemize}
+    \item computational efficiency,
+    \item useful for stress testing.
+\end{itemize}
+
+Disadvantages:
+\begin{itemize}
+    \item limited interpretability,
+    \item no borrower-level insights.
+\end{itemize}
+
+\subsection{Default-Mode vs.\ Mark-to-Market Models}
+
+\subsubsection{Default-Mode Models}
+Default-mode models compute losses only when default occurs. Examples include 
+CreditRisk+, copula-based models, and factor models such as Vasicek.
+
+Strengths:
+\begin{itemize}
+    \item conceptual simplicity,
+    \item efficient computation.
+\end{itemize}
+
+Weaknesses:
+\begin{itemize}
+    \item ignore credit migrations,
+    \item limited for pricing and mark-to-market analysis.
+\end{itemize}
+
+\subsubsection{Mark-to-Market Models}
+Mark-to-market models consider changes in credit quality prior to default. 
+CreditMetrics and CreditPortfolioView are key examples.
+
+Strengths:
+\begin{itemize}
+    \item capture migrations and spread risk,
+    \item more complete valuation framework.
+\end{itemize}
+
+Weaknesses:
+\begin{itemize}
+    \item require more data,
+    \item more complex to calibrate.
+\end{itemize}
+
+\subsection{Conditional vs.\ Unconditional Models}
+
+Unconditional models assume fixed PDs, while conditional models link default 
+probabilities to macroeconomic or latent factors.
+
+Examples of conditional models: CreditPortfolioView, Vasicek, and copula models 
+with systematic factors.
+
+\subsection{Structural Models}
+
+Structural models originate from Merton (1974). Firms default when asset values 
+fall below a barrier. Asset values typically follow geometric Brownian motion.
+
+Advantages:
+\begin{itemize}
+    \item strong economic foundation,
+    \item market-implied PDs.
+\end{itemize}
+
+Disadvantages:
+\begin{itemize}
+    \item unrealistic default timing,
+    \item poor applicability to private firms.
+\end{itemize}
+
+\subsection{Reduced-Form (Intensity) Models}
+
+Reduced-form models treat default as a jump process with stochastic intensity.
+
+Advantages:
+\begin{itemize}
+    \item flexible and tractable,
+    \item compatible with interest rate models.
+\end{itemize}
+
+Disadvantages:
+\begin{itemize}
+    \item no structural interpretation,
+    \item calibration requires extensive market data.
+\end{itemize}
+
+\section{Major Portfolio Credit Risk Models}
+
+\subsection{CreditMetrics}
+
+CreditMetrics (J.P.\ Morgan, 1997) is a market-to-market credit risk model based 
+on rating transitions, spread changes, and correlated asset value dynamics. Loss 
+arises from both defaults and rating migrations.
+
+Strengths:
+\begin{itemize}
+    \item captures migrations,
+    \item consistent with market risk frameworks.
+\end{itemize}
+
+Weaknesses:
+\begin{itemize}
+    \item correlation estimation is difficult,
+    \item reliance on ratings may lag market reality.
+\end{itemize}
+
+\subsection{KMV / Merton Structural Model}
+
+The distance-to-default (DD) is defined as:
+\[
+DD = \frac{\ln(V/A) + (\mu - \tfrac{1}{2}\sigma^2)T}{\sigma\sqrt{T}}.
+\]
+
+KMV maps DD to empirical default probabilities.
+
+Strengths:
+\begin{itemize}
+    \item grounded in firm-value economics,
+    \item provides forward-looking PDs.
+\end{itemize}
+
+Weaknesses:
+\begin{itemize}
+    \item requires market data,
+    \item default barriers difficult to identify.
+\end{itemize}
+
+\subsection{CreditRisk+}
+
+CreditRisk+ is an actuarial model treating defaults as Poisson events with 
+sector-driven intensities.
+
+Strengths:
+\begin{itemize}
+    \item highly efficient,
+    \item minimal data requirements.
+\end{itemize}
+
+Weaknesses:
+\begin{itemize}
+    \item ignores rating migrations,
+    \item Poisson assumption may oversimplify dependence.
+\end{itemize}
+
+\subsection{Gaussian Copula Models}
+
+These models use copulas to model dependence between defaults:
+\[
+D_i = \mathbf{1}(Z_i < \Phi^{-1}(PD_i)).
+\]
+
+Strengths:
+\begin{itemize}
+    \item flexible dependence structure,
+    \item widely used in CDO pricing.
+\end{itemize}
+
+Weaknesses:
+\begin{itemize}
+    \item Gaussian copula underestimates tail dependence,
+    \item contributed to mispricing before 2008.
+\end{itemize}
+
+\subsection{CreditPortfolioView}
+
+CreditPortfolioView links default probabilities to macroeconomic variables such 
+as GDP, unemployment, interest rates, and inflation.
+
+Strengths:
+\begin{itemize}
+    \item suitable for stress testing,
+    \item offers economic interpretation.
+\end{itemize}
+
+Weaknesses:
+\begin{itemize}
+    \item requires long macroeconomic series,
+    \item calibration is complex.
+\end{itemize}
+
+\subsection{Vasicek One-Factor Model (Basel II/III)}
+
+Default is driven by a single systematic factor:
+\[
+Z_i = \sqrt{\rho}Y + \sqrt{1-\rho}\epsilon_i.
+\]
+
+Strengths:
+\begin{itemize}
+    \item closed-form solutions,
+    \item regulatory standard.
+\end{itemize}
+
+Weaknesses:
+\begin{itemize}
+    \item oversimplified correlation,
+    \item poor performance in crises.
+\end{itemize}
+
+\section{Comparative Summary of Models}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|p{1.5cm}|p{1.9cm}|p{1.5cm}|p{2.5cm}|p{3cm}|p{3cm}|}
+\hline
+\textbf{Model} & \textbf{Type} & \textbf{Mode} & \textbf{Inputs} & \textbf{Strengths} & \textbf{Weaknesses} \\
+\hline
+Credit Metrics & Bottom-up & MTM & Transition matrices, correlations & Captures migrations; detailed VaR & Correlation estimation; rating lag \\
+\hline
+KMV/ Merton & Structural & MTM & Equity, volatility, liabilities & Economic foundation; market PDs & Hard for private firms; default barrier issues \\
+\hline
+Credit Risk+ & Bottom-up & Default & PDs, exposures, sector factors & Efficient; minimal data & No migrations; Poisson assumption \\
+\hline
+Gaussian Copula & Bottom-up & Default & PDs, correlation matrix & Flexible dependence & Underestimates tail risk \\
+\hline
+Credit Portfolio View & Conditional & MTM & Macroeconomic variables & Great for stress tests & Calibration complexity \\
+\hline
+Vasicek (Basel) & Bottom-up & Default & PD, LGD, correlation & Regulatory closed forms & One-factor oversimplification \\
+\hline
+\end{tabular}
+\caption{Comparative summary of major portfolio credit risk models.}
+\end{table}
+
+\section{Discussion}
+
+Portfolio credit risk modelling has evolved from firm-value structural models to 
+actuarial and copula-based approaches. Post-crisis, the emphasis shifted toward 
+stress testing, macroeconomic linkage, and systemic stability. No single model 
+captures all aspects of credit risk; thus, institutions often employ hybrid 
+frameworks combining structural insights, dependence modelling, and 
+macroeconomic sensitivity.
+
+\section{Conclusion}
+
+Portfolio credit risk models remain essential tools for risk management, pricing, 
+and regulatory compliance. Understanding their assumptions, data requirements, 
+and limitations is crucial for robust risk assessment. Future developments will 
+likely integrate macro-financial interactions, machine learning, and stress 
+scenario generation within portfolio credit risk frameworks.
+
+\nocite{*}
+
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}
