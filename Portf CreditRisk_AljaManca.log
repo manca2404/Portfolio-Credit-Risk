@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.6)  14 DEC 2025 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.6)  14 DEC 2025 18:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -498,11 +498,6 @@ Overfull \hbox (3.14943pt too wide) in paragraph at lines 274--274
  []
 
 
-Overfull \hbox (22.7284pt too wide) in paragraph at lines 274--274
-[]|\OT1/cmr/m/n/12 Macroeconomic
- []
-
-
 Underfull \hbox (badness 1708) in paragraph at lines 274--274
 []|\OT1/cmr/m/n/12 Ideal for stress
  []
@@ -548,7 +543,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  72i,11n,77p,450b,543s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Portf CreditRisk_AljaManca.pdf" (8 pages, 179108 bytes).
+Output written on "Portf CreditRisk_AljaManca.pdf" (8 pages, 179112 bytes).
 PDF statistics:
  235 PDF objects out of 1000 (max. 8388607)
  38 named destinations out of 1000 (max. 500000)
