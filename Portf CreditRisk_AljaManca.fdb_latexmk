@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex Portf CreditRisk_AljaManca"] 1765713211 "Portf CreditRisk_AljaManca.aux" "Portf CreditRisk_AljaManca.bbl" "Portf CreditRisk_AljaManca" 1765713213
+["bibtex Portf CreditRisk_AljaManca"] 1765733050 "Portf CreditRisk_AljaManca.aux" "Portf CreditRisk_AljaManca.bbl" "Portf CreditRisk_AljaManca" 1765733053
   "C:/Users/manca/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291972791 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "Portf CreditRisk_AljaManca.aux" 1765713212 3717 6454ac9ca93284dfe70da9e17aefde6e "pdflatex"
+  "Portf CreditRisk_AljaManca.aux" 1765733052 3717 704ba7d9de10c3e2fffadb50bb20437a "pdflatex"
   "references.bib" 1765301626 2051 04e68dba91541f8bac10216ae48be42e ""
   (generated)
   "Portf CreditRisk_AljaManca.bbl"
   "Portf CreditRisk_AljaManca.blg"
-["pdflatex"] 1765713211 "c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Risk Mangement/Portfolio-Credit-Risk/Portf CreditRisk_AljaManca.tex" "Portf CreditRisk_AljaManca.pdf" "Portf CreditRisk_AljaManca" 1765713213
+["pdflatex"] 1765733051 "c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Risk Mangement/Portfolio-Credit-Risk/Portf CreditRisk_AljaManca.tex" "Portf CreditRisk_AljaManca.pdf" "Portf CreditRisk_AljaManca" 1765733053
   "C:/Users/manca/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1765712537 83696 30863f05e67e29e7ec138f04cfc5afb2 ""
   "C:/Users/manca/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1665061550 10329961 b99f5382c9d353ba8d2bb20920165a33 ""
   "C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -100,12 +100,12 @@
   "C:/Users/manca/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/manca/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1636710260 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "C:/Users/manca/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Portf CreditRisk_AljaManca.aux" 1765713212 3717 6454ac9ca93284dfe70da9e17aefde6e "pdflatex"
-  "Portf CreditRisk_AljaManca.bbl" 1765713211 1857 a7bbdae1a96e21861766bec72452708e "bibtex Portf CreditRisk_AljaManca"
-  "Portf CreditRisk_AljaManca.out" 1765713212 2951 0340bd5bfcfd194d498df53942d2eb14 "pdflatex"
-  "Portf CreditRisk_AljaManca.tex" 1765713209 11364 63d26842198557f862f223a4f509f0c2 ""
-  "Portf CreditRisk_AljaManca.toc" 1765713212 1446 b74f0f0bb7c7d95447372bfd5f2fcc7f "pdflatex"
-  "c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Risk Mangement/Portfolio-Credit-Risk/Portf CreditRisk_AljaManca.tex" 1765713209 11364 63d26842198557f862f223a4f509f0c2 ""
+  "Portf CreditRisk_AljaManca.aux" 1765733052 3717 704ba7d9de10c3e2fffadb50bb20437a "pdflatex"
+  "Portf CreditRisk_AljaManca.bbl" 1765733050 1857 a7bbdae1a96e21861766bec72452708e "bibtex Portf CreditRisk_AljaManca"
+  "Portf CreditRisk_AljaManca.out" 1765733052 2951 0340bd5bfcfd194d498df53942d2eb14 "pdflatex"
+  "Portf CreditRisk_AljaManca.tex" 1765733042 15465 141cd92389cf5af70d27f58a0f3023ce ""
+  "Portf CreditRisk_AljaManca.toc" 1765733052 1446 947f4dea1c4bef352316e19c6ef61b3d "pdflatex"
+  "c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Risk Mangement/Portfolio-Credit-Risk/Portf CreditRisk_AljaManca.tex" 1765733042 15465 141cd92389cf5af70d27f58a0f3023ce ""
   (generated)
   "Portf CreditRisk_AljaManca.aux"
   "Portf CreditRisk_AljaManca.log"
