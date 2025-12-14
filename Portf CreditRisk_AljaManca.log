@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.6)  9 DEC 2025 18:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.6)  14 DEC 2025 12:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Risk Mangement/Portf CreditRisk_AljaManca.tex"
-(c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Risk Mangement/Portf CreditRisk_AljaManca.tex
+**"c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Risk Mangement/Portfolio-Credit-Risk/Portf CreditRisk_AljaManca.tex"
+(c:/Users/manca/OneDrive/Documents/Faks_FMF/MAG/1. letnik/Risk Mangement/Portfolio-Credit-Risk/Portf CreditRisk_AljaManca.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-04> (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -22,12 +22,6 @@ File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
-) (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip49
@@ -37,7 +31,7 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2021/08/26 v2.01 AMS text
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
+\@emptytoks=\toks16
 \ex@=\dimen139
 )) (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -75,21 +69,21 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip16
 \c@parentequation=\count266
 \dspbrk@lvl=\count267
-\tag@help=\toks19
+\tag@help=\toks17
 \row@=\count268
 \column@=\count269
 \maxfields@=\count270
-\andhelp@=\toks20
+\andhelp@=\toks18
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
 \tagshift@=\dimen144
 \tagwidth@=\dimen145
 \totwidth@=\dimen146
 \lineht@=\dimen147
-\@envbody=\toks21
+\@envbody=\toks19
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks22
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
@@ -105,7 +99,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
+\KV@toks@=\toks21
 ) (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
@@ -143,7 +137,7 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen163
 \ar@mcellbox=\box53
 \extrarowheight=\dimen164
-\NC@list=\toks24
+\NC@list=\toks22
 \extratabsurround=\skip52
 \backup@length=\skip53
 \ar@cellbox=\box54
@@ -165,7 +159,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen170
 \Gm@layouthoffset=\dimen171
 \Gm@layoutvoffset=\dimen172
-\Gm@dimlist=\toks25
+\Gm@dimlist=\toks23
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
@@ -275,44 +269,50 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip54
+) (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip55
+\bibsep=\skip56
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count289
 ) (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count289
+\l__color_backend_stack_int=\count290
 \l__pdf_internal_box=\box55
 ) (Portf CreditRisk_AljaManca.aux)
 \openout1 = `"Portf CreditRisk_AljaManca.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
+\scratchcounter=\count291
 \scratchdimen=\dimen177
 \scratchbox=\box56
-\nofMPsegments=\count291
-\nofMParguments=\count292
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count293
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count294
 \MPscratchDim=\dimen178
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks25
 ) (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -353,7 +353,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 20.
 (Portf CreditRisk_AljaManca.out) (Portf CreditRisk_AljaManca.out)
 \@outlinefile=\write3
 \openout3 = `"Portf CreditRisk_AljaManca.out"'.
@@ -361,11 +361,11 @@ Package hyperref Info: Link coloring OFF on input line 17.
  [1
 
 {C:/Users/manca/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Portf CreditRisk_AljaManca.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
  (C:\Users\manca\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
@@ -376,186 +376,178 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 \newpage
-              [1] [2] [3] [4] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
-[]|\T1/cmr/m/n/12 Credit
+l.45 \newpage
+              [1]
+Overfull \hbox (4.57497pt too wide) in paragraph at lines 51--57
+\OT1/cmr/m/n/10.95 the-o-ret-i-cal foun-da-tions, eval-u-ates prac-ti-cal ap-pli-ca-tions, and high-lights key strengths
+ []
+
+[2] [3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/12 Credit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
-[]|\T1/cmr/m/n/12 Bottom-
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[]|\OT1/cmr/m/n/12 Transition
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
-[]|\T1/cmr/m/n/12 Transition
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+\OT1/cmr/m/n/12 ma-tri-ces,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
-\T1/cmr/m/n/12 ma-tri-ces,
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+\OT1/cmr/m/n/12 cor-re-la-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
-\T1/cmr/m/n/12 tions; de-tailed
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+\OT1/cmr/m/n/12 tions; de-tailed
  []
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 322--323
-\T1/cmr/m/n/12 ma-tion; rat-ing
+Underfull \hbox (badness 6141) in paragraph at lines 219--220
+\OT1/cmr/m/n/12 ma-tion; rat-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
-[]|\T1/cmr/m/n/12 KMV/
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\OT1/cmr/m/n/12 KMV/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
-[]|\T1/cmr/m/n/12 Equity,
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\OT1/cmr/m/n/12 Equity,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
-\T1/cmr/m/n/12 volatil-ity,
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\OT1/cmr/m/n/12 volatil-ity,
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 324--324
-[]|\T1/cmr/m/n/12 Economic foun-
+Underfull \hbox (badness 1902) in paragraph at lines 221--221
+[]|\OT1/cmr/m/n/12 Economic foun-
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 324--324
-\T1/cmr/m/n/12 da-tion; mar-ket
+Underfull \hbox (badness 3525) in paragraph at lines 221--221
+\OT1/cmr/m/n/12 da-tion; mar-ket
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
-\T1/cmr/m/n/12 firms; de-fault
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
+[]|\OT1/cmr/m/n/12 Credit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-[]|\T1/cmr/m/n/12 Credit
+Overfull \hbox (1.03317pt too wide) in paragraph at lines 223--223
+[]|\OT1/cmr/m/n/12 Default| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-[]|\T1/cmr/m/n/12 Bottom-
+Underfull \hbox (badness 3019) in paragraph at lines 223--223
+[]|\OT1/cmr/m/n/12 Efficient; min-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
-[]|\T1/cmr/m/n/12 PDs, ex-po-
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+[]|\OT1/cmr/m/n/12 No mi-gra-tion;
  []
 
 
-Underfull \hbox (badness 3872) in paragraph at lines 326--326
-\T1/cmr/m/n/12 sures, sec-tor
+Overfull \hbox (3.87874pt too wide) in paragraph at lines 225--225
+[]|\OT1/cmr/m/n/12 Gaussian
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 326--326
-[]|\T1/cmr/m/n/12 Efficient; min-i-
+Overfull \hbox (1.03317pt too wide) in paragraph at lines 225--225
+[]|\OT1/cmr/m/n/12 Default| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-[]|\T1/cmr/m/n/12 No mi-gra-tions;
+Underfull \hbox (badness 4242) in paragraph at lines 225--225
+[]|\OT1/cmr/m/n/12 PDs, cor-
  []
 
 
-Overfull \hbox (3.8678pt too wide) in paragraph at lines 328--328
-[]|\T1/cmr/m/n/12 Gaussian
+Underfull \hbox (badness 3713) in paragraph at lines 225--225
+[]|\OT1/cmr/m/n/12 Flexible de-pen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
-[]|\T1/cmr/m/n/12 Bottom-
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+[]|\OT1/cmr/m/n/12 Underestimates
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 328--328
-[]|\T1/cmr/m/n/12 Flexible de-pen-
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+[]|\OT1/cmr/m/n/12 Credit
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
-[]|\T1/cmr/m/n/12 Underestimates
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+\OT1/cmr/m/n/12 Port-fo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
-[]|\T1/cmr/m/n/12 Credit
+Overfull \hbox (3.14943pt too wide) in paragraph at lines 227--227
+[]|\OT1/cmr/m/n/12 Conditional| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
-\T1/cmr/m/n/12 Port-fo-
+Overfull \hbox (22.7284pt too wide) in paragraph at lines 227--227
+[]|\OT1/cmr/m/n/12 Macroeconomic
  []
 
 
-Overfull \hbox (5.98079pt too wide) in paragraph at lines 330--330
-[]|\T1/cmr/m/n/12 Conditional| 
+Underfull \hbox (badness 1708) in paragraph at lines 227--227
+[]|\OT1/cmr/m/n/12 Ideal for stress
  []
 
 
-Overfull \hbox (8.48334pt too wide) in paragraph at lines 330--330
-[]|\T1/cmr/m/n/12 Macroeconomic
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+[]|\OT1/cmr/m/n/12 Calibration
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
-[]|\T1/cmr/m/n/12 Calibration
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[]|\OT1/cmr/m/n/12 Vasicek
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[]|\T1/cmr/m/n/12 Vasicek
+Overfull \hbox (1.03317pt too wide) in paragraph at lines 229--229
+[]|\OT1/cmr/m/n/12 Default| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[]|\T1/cmr/m/n/12 Bottom-
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+[]|\OT1/cmr/m/n/12 Closed forms;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[]|\T1/cmr/m/n/12 PD, LGD,
+Underfull \hbox (badness 1596) in paragraph at lines 229--230
+\OT1/cmr/m/n/12 sim-pli-fies cor-re-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[]|\T1/cmr/m/n/12 Regulatory
- []
-
-
-Overfull \hbox (3.09877pt too wide) in paragraph at lines 318--335
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(Portf CreditRisk_AljaManca.bbl [7]) [8] [9] (Portf CreditRisk_AljaManca.aux)
+[5] (Portf CreditRisk_AljaManca.bbl) [6] (Portf CreditRisk_AljaManca.aux)
 Package rerunfilecheck Info: File `"Portf CreditRisk_AljaManca".out' has not changed.
-(rerunfilecheck)             Checksum: 70027E6F3D3F7636575665923642A027;3931.
+(rerunfilecheck)             Checksum: 0340BD5BFCFD194D498DF53942D2EB14;2951.
  ) 
 Here is how much of TeX's memory you used:
- 10364 strings out of 478338
- 162860 string characters out of 2836700
- 470240 words of memory out of 3000000
- 28599 multiletter control sequences out of 15000+600000
- 483583 words of font info for 61 fonts, out of 8000000 for 9000
+ 10462 strings out of 478338
+ 164803 string characters out of 2836700
+ 473404 words of memory out of 3000000
+ 28715 multiletter control sequences out of 15000+600000
+ 477604 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,77p,428b,538s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\manca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\manca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\manca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\manca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\manca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\manca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\manca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\manca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\manca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\manca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "Portf CreditRisk_AljaManca.pdf" (10 pages, 228656 bytes).
+ 72i,11n,77p,450b,460s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/manca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Portf CreditRisk_AljaManca.pdf" (7 pages, 175038 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 230 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 

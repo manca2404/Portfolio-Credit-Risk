@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Portf CreditRisk_AljaManca.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apalike.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: references.bib
+Warning--empty institution in jpm1997
+You've used 10 entries,
+            1935 wiz_defined-function locations,
+            529 strings with 4790 characters,
+and the built_in function-call counts, 3434 in all, are:
+= -- 339
+> -- 109
+< -- 7
++ -- 38
+- -- 34
+* -- 280
+:= -- 616
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 68
+chr.to.int$ -- 10
+cite$ -- 11
+duplicate$ -- 136
+empty$ -- 255
+format.name$ -- 46
+if$ -- 658
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 12
+newline$ -- 53
+num.names$ -- 30
+pop$ -- 56
+preamble$ -- 1
+purify$ -- 67
+quote$ -- 0
+skip$ -- 103
+stack$ -- 0
+substring$ -- 240
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 54
+warning$ -- 1
+while$ -- 30
+width$ -- 0
+write$ -- 130
+(There was 1 warning)
