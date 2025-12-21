@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex Portf CreditRisk_AljaManca"] 1766273610.97576 "Portf CreditRisk_AljaManca.aux" "Portf CreditRisk_AljaManca.bbl" "Portf CreditRisk_AljaManca" 1766273611.75781 0
+["bibtex Portf CreditRisk_AljaManca"] 1766312421.95736 "Portf CreditRisk_AljaManca.aux" "Portf CreditRisk_AljaManca.bbl" "Portf CreditRisk_AljaManca" 1766312482.26449 0
   "./references.bib" 1765899234.51705 1965 04e68dba91541f8bac10216ae48be42e ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "Portf CreditRisk_AljaManca.aux" 1766273611.52736 3372 a48a8ba8a58114c6af076494b5ae6c24 "pdflatex"
+  "Portf CreditRisk_AljaManca.aux" 1766312482.03152 3266 4e611cb5c7da705fe081d6c816a36316 "pdflatex"
   (generated)
   "Portf CreditRisk_AljaManca.bbl"
   "Portf CreditRisk_AljaManca.blg"
   (rewritten before read)
-["pdflatex"] 1766273611.06908 "/Users/aljadostal/Documents/faks/prvi mag/Risk Management/Portfolio Credit Risk Models (december, po 2, 30)/Portfolio-Credit-Risk/Portf CreditRisk_AljaManca.tex" "Portf CreditRisk_AljaManca.pdf" "Portf CreditRisk_AljaManca" 1766273611.75795 0
-  "/Users/aljadostal/Documents/faks/prvi mag/Risk Management/Portfolio Credit Risk Models (december, po 2, 30)/Portfolio-Credit-Risk/Portf CreditRisk_AljaManca.tex" 1766273609.59302 18171 24a69703af95b3e5b35e5533857f5185 ""
+["pdflatex"] 1766312481.53897 "/Users/aljadostal/Documents/faks/prvi mag/Risk Management/Portfolio Credit Risk Models (december, po 2, 30)/Portfolio-Credit-Risk/Portf CreditRisk_AljaManca.tex" "Portf CreditRisk_AljaManca.pdf" "Portf CreditRisk_AljaManca" 1766312482.26462 0
+  "/Users/aljadostal/Documents/faks/prvi mag/Risk Management/Portfolio Credit Risk Models (december, po 2, 30)/Portfolio-Credit-Risk/Portf CreditRisk_AljaManca.tex" 1766312481.29437 23459 faea2f0aae708672e28511aedd52b861 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -42,10 +42,12 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1248133631 36118 fad905eba93cff5bce1e185fe980a177 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -105,11 +107,11 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1766077321 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1766077208 3345745 6a978c59d915ec7f9759e9d22ec574c2 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Portf CreditRisk_AljaManca.aux" 1766273611.52736 3372 a48a8ba8a58114c6af076494b5ae6c24 "pdflatex"
-  "Portf CreditRisk_AljaManca.bbl" 1766273611.06717 1801 c3411ab23939319e4cd2029fdf5108f4 "bibtex Portf CreditRisk_AljaManca"
-  "Portf CreditRisk_AljaManca.out" 1766273611.52788 3198 45066f386adde0e46ecd502bd26623a6 "pdflatex"
-  "Portf CreditRisk_AljaManca.tex" 1766273609.59302 18171 24a69703af95b3e5b35e5533857f5185 ""
-  "Portf CreditRisk_AljaManca.toc" 1766273611.52807 1493 b15905cef716f018a55b92183f469e3f "pdflatex"
+  "Portf CreditRisk_AljaManca.aux" 1766312482.03152 3266 4e611cb5c7da705fe081d6c816a36316 "pdflatex"
+  "Portf CreditRisk_AljaManca.bbl" 1766312422.05242 1801 c3411ab23939319e4cd2029fdf5108f4 "bibtex Portf CreditRisk_AljaManca"
+  "Portf CreditRisk_AljaManca.out" 1766312482.03206 3104 bf30fad52e8c6de30fda23e9b92d2daf "pdflatex"
+  "Portf CreditRisk_AljaManca.tex" 1766312481.29437 23459 faea2f0aae708672e28511aedd52b861 ""
+  "Portf CreditRisk_AljaManca.toc" 1766312482.03226 1427 72fef8cedb8907349a59ca6fcab4139c "pdflatex"
   (generated)
   "Portf CreditRisk_AljaManca.aux"
   "Portf CreditRisk_AljaManca.log"

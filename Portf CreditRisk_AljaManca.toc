@@ -7,11 +7,10 @@
 \contentsline {subsection}{\numberline {3.4}Structural and Reduced-Form Models}{4}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Major Portfolio Credit Risk Models}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}CreditMetrics}{5}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}CreditRisk+}{5}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Moody's KMV}{6}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Credit Portfolio View}{6}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Gaussian Copula Models}{6}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Vasicek One-Factor Model}{7}{subsection.4.6}%
-\contentsline {section}{\numberline {5}Comparative Summary of Models}{7}{section.5}%
-\contentsline {section}{\numberline {6}Discussion}{7}{section.6}%
-\contentsline {section}{\numberline {7}Conclusion}{8}{section.7}%
+\contentsline {subsection}{\numberline {4.2}CreditRisk+}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Moody's KMV}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Credit Portfolio View}{7}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Gaussian Copula Models}{8}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Vasicek One-Factor Model}{8}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Comparative Summary of Models}{8}{section.5}%
+\contentsline {section}{\numberline {6}Conclusion}{9}{section.6}%

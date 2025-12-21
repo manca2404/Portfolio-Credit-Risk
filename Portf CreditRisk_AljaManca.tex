@@ -96,7 +96,7 @@ Bottom-up models analyse credit risk at the level of individual obligors and the
 aggregate the results to the portfolio level. In this framework, each exposure is 
 characterised by its probability of default, exposure at default, and loss given 
 default, while portfolio risk emerges from the joint behaviour of defaults across 
-obligors. Prominent examples include the Merton/KMV model, CreditMetrics, Gaussian 
+obligors. Prominent examples include the Moody's KMV model, CreditMetrics, Gaussian 
 copula models, and CreditRisk+ \citep{crouhy2000}. The main advantage of bottom-up 
 models lies in their ability to provide detailed and granular risk information, 
 which allows for portfolio optimisation, risk attribution, and sensitivity 
@@ -194,32 +194,84 @@ the firm’s balance sheet or asset dynamics.
 
 \subsection{CreditMetrics}
 
-CreditMetrics, developed by J.P.\ Morgan in 1997, is a market-to-market credit risk 
+CreditMetrics, developed by J.P. Morgan in 1997, is a market-to-market credit risk 
 model that captures both default and migration risk through rating transition 
 matrices, spread volatility, and correlated asset value dynamics \citep{jpm1997}. 
-Each instrument in the portfolio is assigned a credit rating, and future rating 
-states are simulated using empirical transition probabilities. In the event of 
-default, losses are computed using historical recovery rates differentiated by 
-seniority. Correlations between obligors are introduced through correlated asset 
-returns, typically assumed to follow a multivariate normal distribution. The final 
-portfolio loss distribution is obtained via Monte Carlo simulation. The main 
+It is a bottom-up model, driven by movements in bonds ratings. Other commitments can
+be included, such as bonds, loans, swaps. Impact of market volatility on expected
+exposures at maturity has to bo assessed by analysts.Each instrument in the portfolio
+is assigned a credit rating, and future rating states are simulated using empirical
+transition probabilities. In the event of default, losses are computed using historical
+recovery rates differentiated by seniority. Correlations between obligors are introduced
+through correlated asset returns, typically assumed to follow a multivariate normal
+distribution. The final portfolio loss distribution is obtained via Monte Carlo simulation. The main 
 strength of CreditMetrics lies in its ability to integrate credit risk into a 
 value-at-risk framework similar to market risk models, while its main weakness 
 stems from the difficulty of estimating reliable correlations and transition 
-probabilities.
+probabilities. \\
+
+\textit{Example.} Consider a single $5$-year corporate bond with face value $F = 10$ million USD and 
+current credit rating $r_0 = \text{BBB}$. Let $P_{r_0,r}$ denote the one-year rating 
+transition probability from rating $r_0$ to rating $r \in \{A, BBB, BB, D\}$.  
+
+At horizon $T=1$, the mark-to-market value of the bond conditional on rating $r$ is
+\[
+V_r = \sum_{t=1}^{4} \frac{cF}{(1+s_r)^t} + \frac{F}{(1+s_r)^4},
+\]
+where $c$ is the coupon rate and $s_r$ is the credit spread associated with rating $r$.
+In the event of default ($r=D$), the value is
+\[
+V_D = (1-\text{LGD})F.
+\]
+
+Let asset returns follow a correlated multivariate normal distribution,
+\[
+\mathbf{X} \sim \mathcal{N}(0,\Sigma),
+\]
+which determines joint rating migrations across obligors. Monte Carlo simulation 
+yields the portfolio value distribution, and the credit value-at-risk at confidence 
+level $\alpha$ is
+\[
+\text{Credit VaR}_\alpha = V_0 - \inf \{ v : \mathbb{P}(V_T \leq v) \geq \alpha \}.
+\]
 
 \subsection{CreditRisk+}
 
 CreditRisk+ is an actuarial portfolio credit risk model that treats defaults as 
-Poisson-distributed events with sector-specific risk factors \citep{bluhm2016}. 
+Poisson-distributed events with sector-specific risk factors \citep{bluhm2016}.
+It was published by Credit Suisse in 1997.  
 Instead of modelling asset values or credit migrations, the model focuses on the 
-frequency and severity of default losses. Correlation across obligors is introduced 
+frequency and severity of default losses. Default intensity can be modeled with
+factors that change in time. Correlation across obligors is introduced 
 by grouping exposures into homogeneous sectors that share common systematic risk 
 factors. Losses are modelled using exposure bands, and the overall portfolio loss 
 distribution is obtained by aggregating losses across bands and sectors. Its 
 computational efficiency and modest data requirements make CreditRisk+ attractive 
 for large loan portfolios, although it ignores rating migrations and assumes 
-simplified dependence structures.
+simplified dependence structures. \\
+
+\textit{Example.} Consider a portfolio of $N$ homogeneous loans with exposure $E$, loss given default 
+$\text{LGD}$, and unconditional default probability $p$. Defaults are modelled as a 
+Poisson random variable
+\[
+D \sim \text{Poisson}(\lambda), \quad \lambda = Np.
+\]
+
+Sectoral dependence is introduced via a stochastic default intensity,
+\[
+\lambda = \sum_{k=1}^{K} w_k \lambda_k,
+\]
+where $\lambda_k$ are Gamma-distributed sector factors. The total portfolio loss is
+\[
+L = E \cdot \text{LGD} \cdot D.
+\]
+
+The probability generating function of the loss distribution allows analytical 
+derivation of expected loss,
+\[
+\mathbb{E}[L] = E \cdot \text{LGD} \cdot \lambda,
+\]
+and high-quantile unexpected loss without Monte Carlo simulation.
 
 \subsection{Moody's KMV}
 
@@ -229,16 +281,37 @@ distance-to-default, defined as
 DD = \frac{\ln(V/A) + (\mu - \tfrac{1}{2}\sigma^2)T}{\sigma \sqrt{T}}.
 \]
 This measure captures how far a firm’s asset value is from the default boundary, 
-expressed in units of asset volatility. The distance-to-default is then mapped to 
+expressed in units of asset volatility.
+In Merton's model - which KMV model is based on - value of equity is a call option
+on the value of the firm's assets. It is a structural model. The distance-to-default is then mapped to 
 empirical default probabilities using large historical databases of default events. 
 The model provides forward-looking and market-based default estimates and has been 
 shown to anticipate changes in credit ratings. However, it requires high-quality 
 market data and relies on simplifying assumptions regarding capital structure, 
-asset volatility, and the timing of default \citep{merton1974}.
+asset volatility, and the timing of default \citep{merton1974}. \\
+
+\textit{Example.} Let firm asset value $V_t$ follow a geometric Brownian motion,
+\[
+dV_t = \mu V_t dt + \sigma V_t dW_t.
+\]
+
+Define the default point $A$ as short-term debt plus half of long-term debt. The 
+distance-to-default at horizon $T$ is
+\[
+DD = \frac{\ln(V_0/A) + (\mu - \tfrac{1}{2}\sigma^2)T}{\sigma \sqrt{T}}.
+\]
+
+The empirical default probability is obtained via a mapping function $f(\cdot)$,
+\[
+\text{PD} = f(DD),
+\]
+calibrated from historical default data. This PD can then be used as an input into 
+portfolio credit risk models or pricing applications.
 
 \subsection{Credit Portfolio View}
 
-Credit Portfolio View explicitly incorporates macroeconomic variables such as GDP 
+Credit Portfolio View - published by McKinsey in 1997 - explicitly incorporates
+macroeconomic variables such as GDP 
 growth, unemployment, and interest rates into the modelling of default 
 probabilities. Default probabilities are estimated using econometric models, 
 typically logit specifications, and vary systematically with the state of the 
@@ -246,7 +319,24 @@ economy. Portfolio losses are then simulated conditional on macroeconomic
 scenarios. This approach makes Credit Portfolio View particularly well suited for 
 stress testing and scenario analysis. However, its top-down nature limits its 
 ability to capture firm-specific credit risk, and its calibration requires long 
-and reliable macroeconomic time series \citep{wilson1997}.
+and reliable macroeconomic time series \citep{wilson1997}. \\
+
+\textit{Example.} Let the default probability for obligor $i$ at time $t$ be modelled using a logit 
+specification,
+\[
+\log\left(\frac{PD_{i,t}}{1 - PD_{i,t}}\right)
+= \beta_0 + \beta_1 \text{GDP}_t + \beta_2 \text{UNEMP}_t.
+\]
+
+Given a macroeconomic scenario $\{\text{GDP}_t, \text{UNEMP}_t\}$, conditional default 
+probabilities are computed and portfolio loss is simulated as
+\[
+L_t = \sum_{i=1}^{n} EAD_i \cdot LGD_i \cdot D_{i,t},
+\quad D_{i,t} \sim \text{Bernoulli}(PD_{i,t}).
+\]
+
+This framework allows scenario-dependent estimation of expected loss and stress 
+losses.
 
 \subsection{Gaussian Copula Models}
 
@@ -364,26 +454,54 @@ Vasicek (Basel ASRF)
 \caption{Comparative summary of major portfolio credit risk models.}
 \end{table}
 
+% \section{Discussion}
 
-\section{Discussion}
+% Portfolio credit risk modelling has evolved from economically intuitive structural 
+% models to actuarial and copula-based frameworks, as well as regulatory factor 
+% models. Following the global financial crisis, greater emphasis has been placed 
+% on stress testing and macroeconomic sensitivity. In practice, institutions often 
+% combine multiple models to compensate for individual limitations.
 
-Portfolio credit risk modelling has evolved from economically intuitive structural 
-models to actuarial and copula-based frameworks, as well as regulatory factor 
-models. Following the global financial crisis, greater emphasis has been placed 
-on stress testing and macroeconomic sensitivity. In practice, institutions often 
-combine multiple models to compensate for individual limitations.
+\newpage
 
 \section{Conclusion}
 
-Portfolio credit risk models are indispensable tools in modern risk management. 
-Each modelling framework embodies specific assumptions and trade-offs, making it 
-essential to understand their limitations and appropriate use cases. Future 
-developments are likely to further integrate macro-financial feedback mechanisms 
-and advanced analytical techniques.
+% Portfolio credit risk models are indispensable tools in modern risk management. 
+% Each modelling framework embodies specific assumptions and trade-offs, making it 
+% essential to understand their limitations and appropriate use cases. Future 
+% developments are likely to further integrate macro-financial feedback mechanisms 
+% and advanced analytical techniques.
+
+Portfolio credit risk modelling seeks to quantify losses arising from correlated
+default events in a manner that is both theoretically sound and practically implementable.
+This paper has shown that no single modelling framework can fully capture the complexity
+of credit risk, as each approach reflects different assumptions about default behaviour,
+dependence structures, data availability, and intended use cases.
+
+Bottom-up models offer granular insights and are well suited for portfolio management and
+regulatory capital assessment, while top-down approaches provide computationally efficient
+tools for stress testing and macroeconomic scenario analysis. Similarly, default-mode models
+prioritise simplicity and robustness, making them attractive for large portfolios and regulatory
+purposes, whereas mark-to-market models deliver a richer representation of credit risk by
+incorporating migration and spread dynamics. Structural models ground default events in firm
+value dynamics and offer strong economic intuition, but reduced-form models provide greater
+flexibility and are better suited for modelling default timing and pricing credit derivatives.
+
+This paper shows that each of the major portfolio credit risk models - CreditMetrics, CreditRisk+,
+Moody's KMV, Credit Portfolio View, Gaussian copula models, and the Vasicek one-factor framework -
+is not a universal solution and is rather used as a specialised tool. It is best to use multiple
+models in complementary ways to address different dimensions of credit risk.
+
+Ultimately, effective portfolio credit risk management depends not only on model sophistication but
+also on sound judgement, high-quality data, and a clear understanding of model limitations. Recognising
+these limitations is essential, particularly in stressed market environments where simplifying assumptions
+may break down.
 
 % ------------------------
 % BIBLIOGRAPHY
 % ------------------------
+
+%\newpage
 
 \nocite{*}
 
