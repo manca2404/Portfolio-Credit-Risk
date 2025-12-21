@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.18)  21 DEC 2025 11:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.12.18)  21 DEC 2025 11:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -388,108 +388,108 @@ l.45 \newpage
 [3]
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 197--212
+Underfull \hbox (badness 10000) in paragraph at lines 198--213
 
  []
 
 
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 240--252
+Underfull \hbox (badness 10000) in paragraph at lines 241--253
 
  []
 
 
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 282--292
+Underfull \hbox (badness 10000) in paragraph at lines 283--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--323
+Underfull \hbox (badness 10000) in paragraph at lines 314--324
 
  []
 
 
 
 [7]
-Underfull \hbox (badness 7685) in paragraph at lines 408--409
+Underfull \hbox (badness 7685) in paragraph at lines 409--410
 []|\OT1/cmr/m/n/10.95 Bottom-up, MTM,
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 408--409
+Underfull \hbox (badness 3826) in paragraph at lines 409--410
 \OT1/cmr/m/n/10.95 Con-di-tional, Struc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
 []|\OT1/cmr/m/n/10.95 Rating tran-si-tions,
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 410--411
+Underfull \hbox (badness 1107) in paragraph at lines 411--412
 \OT1/cmr/m/n/10.95 MTM val-u-a-tion sen-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
 []|\OT1/cmr/m/n/10.95 Bottom-up, De-
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 416--417
+Underfull \hbox (badness 1603) in paragraph at lines 417--418
 \OT1/cmr/m/n/10.95 law; no mi-gra-tion or
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 420--421
+Underfull \hbox (badness 7685) in paragraph at lines 421--422
 []|\OT1/cmr/m/n/10.95 Bottom-up, MTM,
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 420--421
+Underfull \hbox (badness 3826) in paragraph at lines 421--422
 \OT1/cmr/m/n/10.95 Con-di-tional, Struc-
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 422--423
+Underfull \hbox (badness 1320) in paragraph at lines 423--424
 \OT1/cmr/m/n/10.95 value cross-ing bar-rier;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
 []|\OT1/cmr/m/n/10.95 Top-down, MTM,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
 \OT1/cmr/m/n/10.95 Con-di-tional,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
 []|\OT1/cmr/m/n/10.95 PDs con-di-tioned on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
 []|\OT1/cmr/m/n/10.95 Bottom-up, De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
 []|\OT1/cmr/m/n/10.95 Standard de-pen-dence
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--440
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
 \OT1/cmr/m/n/10.95 Con-di-tional (from
  []
 
 
-Underfull \hbox (badness 7576) in paragraph at lines 439--440
+Underfull \hbox (badness 7576) in paragraph at lines 440--441
 \OT1/cmr/m/n/10.95 un-con-di-tional PD),
  []
 
@@ -511,18 +511,18 @@ Package rerunfilecheck Info: File `"Portf CreditRisk_AljaManca".out' has not cha
 (rerunfilecheck)             Checksum: BF30FAD52E8C6DE30FDA23E9B92D2DAF;3104.
  ) 
 Here is how much of TeX's memory you used:
- 10778 strings out of 473190
- 164003 string characters out of 5715799
- 574173 words of memory out of 5000000
- 33858 multiletter control sequences out of 15000+600000
+ 10782 strings out of 473190
+ 164064 string characters out of 5715799
+ 574197 words of memory out of 5000000
+ 33861 multiletter control sequences out of 15000+600000
  568430 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,550b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Portf CreditRisk_AljaManca.pdf" (11 pages, 199092 bytes).
+Output written on "Portf CreditRisk_AljaManca.pdf" (11 pages, 199246 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 500000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
+ 41 named destinations out of 1000 (max. 500000)
  129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
