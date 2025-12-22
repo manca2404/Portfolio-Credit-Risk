@@ -14,16 +14,17 @@ Bluhm, C., Overbeck, L., and Wagner, C. (2016).
 Crouhy, M., Galai, D., and Mark, R. (2000).
 \newblock A comparative analysis of current credit risk models.
 \newblock {\em Journal of Banking \& Finance}, 24(1--2):59--117.
+\newblock Available at: https://www.ime.usp.br/~rvicente/risco/crouhy.pdf.
 
 \bibitem[Gordy, 2003]{gordy2003}
 Gordy, M.~B. (2003).
 \newblock A risk-factor model foundation for ratings-based bank capital rules.
 \newblock {\em Journal of Financial Intermediation}, 12(3):199--232.
+\newblock Available at: https://www.federalreserve.gov/pubs/feds/2002/200255/200255pap.pdf.
 
 \bibitem[Hull, 2018]{hull2018}
 Hull, J.~C. (2018).
-\newblock {\em Risk Management and Financial Institutions}.
-\newblock Wiley, 5 edition.
+\newblock Risk management and financial institutions.
 
 \bibitem[Jarrow and Turnbull, 1995]{jarrow1995}
 Jarrow, R.~A. and Turnbull, S.~M. (1995).
@@ -33,7 +34,6 @@ Jarrow, R.~A. and Turnbull, S.~M. (1995).
 \bibitem[{J.P. Morgan}, 1997]{jpm1997}
 {J.P. Morgan} (1997).
 \newblock Creditmetrics technical document.
-\newblock Technical report.
 
 \bibitem[McNeil et~al., 2015]{mcniel2015}
 McNeil, A., Frey, R., and Embrechts, P. (2015).
@@ -44,6 +44,11 @@ McNeil, A., Frey, R., and Embrechts, P. (2015).
 Merton, R.~C. (1974).
 \newblock On the pricing of corporate debt: The risk structure of interest rates.
 \newblock {\em Journal of Finance}, 29(2):449--470.
+
+\bibitem[{PyFin Academy}, 2025]{pyfin2025valuation}
+{PyFin Academy} (2025).
+\newblock Valuation and risk models.
+\newblock \url{https://frmi.netlify.app/valuation_and_risk_models}.
 
 \bibitem[Vasicek, 2002]{vasicek2002}
 Vasicek, O. (2002).

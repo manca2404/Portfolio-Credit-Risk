@@ -7,6 +7,7 @@
 \usepackage{array}
 \usepackage{geometry}
 \usepackage{setspace}
+\usepackage{url}
 \usepackage[hidelinks]{hyperref}
 \usepackage{natbib}
 
@@ -65,10 +66,12 @@ contractual obligations — is one of the central risks managed by financial
 institutions. While traditional credit analysis focuses on individual borrowers, 
 portfolio credit risk extends this perspective by explicitly accounting for the 
 joint behaviour of multiple obligors, default correlations, and systemic effects. 
-Financial institutions rely on portfolio credit risk models to quantify expected 
-loss (EL), unexpected loss (UL), and tail risk measures such as Value-at-Risk (VaR) 
-and Expected Shortfall (ES), which are essential for economic capital allocation, 
-regulatory compliance, pricing, and portfolio optimisation \citep{hull2018, mcniel2015}.
+Credit risk measurment involves several key components, such as probability of default (PD),
+exposure at default (EAD), loss given default (LGD), expected loss (EL) and unexpected loss (UL).
+%Financial institutions rely on portfolio credit risk models to quantify expected 
+%loss (EL), unexpected loss (UL), and tail risk measures such as Value-at-Risk (VaR) 
+%and Expected Shortfall (ES), which are essential for economic capital allocation, 
+%regulatory compliance, pricing, and portfolio optimisation \citep{hull2018, mcniel2015}.
 The paper is based on lecture notes \citep{berk2025}.
 
 \section{Conceptual Foundations of Portfolio Credit Risk}
@@ -166,7 +169,7 @@ on their obligations within a specific period, irrespective of their survival up
 
 The main distinction between conditional and unconditional default probabilities is in the context within which
 these probabilities are used. While conditional probabilities focus on survival to a specific point in time,
-unconditional probabilities provide a broader assessment of default likelihood.
+unconditional probabilities provide a broader assessment of default likelihood. \citep{pyfin2025valuation}
 
 \subsection{Structural and Reduced-Form Models}
 
@@ -200,7 +203,7 @@ model that captures both default and migration risk through rating transition
 matrices, spread volatility, and correlated asset value dynamics \citep{jpm1997}. 
 It is a bottom-up model, driven by movements in bonds ratings. Other commitments can
 be included, such as bonds, loans, swaps. Impact of market volatility on expected
-exposures at maturity has to bo assessed by analysts.Each instrument in the portfolio
+exposures at maturity has to bo assessed by analysts. Each instrument in the portfolio
 is assigned a credit rating, and future rating states are simulated using empirical
 transition probabilities. In the event of default, losses are computed using historical
 recovery rates differentiated by seniority. Correlations between obligors are introduced
@@ -339,34 +342,47 @@ L_t = \sum_{i=1}^{n} EAD_i \cdot LGD_i \cdot D_{i,t},
 This framework allows scenario-dependent estimation of expected loss and stress 
 losses.
 
-\subsection{Gaussian Copula Models}
+\subsection{Gaussian Copula Model}
 
-Gaussian copula models link individual defaults through a common dependence 
+Gaussian copula model links individual defaults through a common dependence 
 structure, typically represented as
 \[
 D_i = \mathbf{1}(Z_i < \Phi^{-1}(PD_i)).
 \]
+It models the dependence structure between credit risks of different entities within a portfolio.
+The Gaussian copula model operates on the premise that the marginal distribution of each credit
+risk is a standard normal distribution. The model then uses a copula function to describe the
+correlation structure between these standardized credit risks. By doing so, it allows us to simulate
+joint defaults and evaluate portfolio risk. 
 In this framework, default occurs when a latent variable falls below a threshold 
 determined by the obligor’s marginal default probability. Dependence across 
 obligors is captured through correlations among the latent variables. These models 
 gained widespread popularity in structured credit markets due to their analytical 
-convenience and flexibility. However, their inability to capture extreme tail 
-dependence became evident during the global financial crisis, leading to systematic 
-underestimation of joint default risk \citep{crouhy2000}.
+convenience and flexibility. However, one of the most notable limitations is its assumption of normality,
+which might not hold in all cases. In situations of severe market stress or extreme events, the model’s
+accuracy can be compromised \citep{pyfin2025valuation}. 
+%their inability to capture extreme tail 
+%dependence became evident during the global financial crisis, leading to systematic 
+%underestimation of joint default risk \citep{crouhy2000}.
 
 \subsection{Vasicek One-Factor Model}
 
 The Vasicek one-factor model, which forms the basis of the Basel II and Basel III 
 IRB capital framework, represents default risk as driven by a single systematic 
-factor \citep{gordy2003}:
+factor: %\citep{gordy2003}
 \[
 Z_i = \sqrt{\rho} Y + \sqrt{1-\rho} \epsilon_i.
 \]
-In this framework, default correlations arise naturally from exposure to the common 
-systematic factor. The model offers closed-form solutions for portfolio loss 
-quantiles and provides a transparent regulatory standard. However, the assumption 
-of a single risk factor oversimplifies correlation structures, particularly during 
-periods of financial stress.
+The model offers a structured approach to quantifying default rates by taking into account the
+influence of economic factors. It operates within the realm of one-factor models, where a single
+systematic factor plays a pivotal role in driving credit events. This factor is typically associated
+with macroeconomic conditions, capturing the broad economic environment that affects borrowers’
+ability to meet their obligations \citep{pyfin2025valuation}.
+% In this framework, default correlations arise naturally from exposure to the common 
+% systematic factor. The model offers closed-form solutions for portfolio loss 
+% quantiles and provides a transparent regulatory standard. However, the assumption 
+% of a single risk factor oversimplifies correlation structures, particularly during 
+% periods of financial stress.
 
 \section{Comparative Summary of Models}
 
@@ -463,7 +479,7 @@ Vasicek (Basel ASRF)
 % on stress testing and macroeconomic sensitivity. In practice, institutions often 
 % combine multiple models to compensate for individual limitations.
 
-\newpage
+%\newpage
 
 \section{Conclusion}
 
@@ -489,7 +505,7 @@ value dynamics and offer strong economic intuition, but reduced-form models prov
 flexibility and are better suited for modelling default timing and pricing credit derivatives.
 
 This paper shows that each of the major portfolio credit risk models - CreditMetrics, CreditRisk+,
-Moody's KMV, Credit Portfolio View, Gaussian copula models, and the Vasicek one-factor framework -
+Moody's KMV, Credit Portfolio View, Gaussian copula model, and the Vasicek one-factor framework -
 is not a universal solution and is rather used as a specialised tool. It is best to use multiple
 models in complementary ways to address different dimensions of credit risk.
 
