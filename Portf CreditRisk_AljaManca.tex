@@ -145,7 +145,7 @@ spread information, and involve more complex calibration and simulation procedur
 
 \subsection{Conditional and Unconditional Default Probability Models}
 
-Probability of default (PB) is the likelihood that over a specified period a borrower will
+Probability of default (PD) is the likelihood that over a specified period a borrower will
 not be able to make their scheduled repayments on a particular debt. Higher interest
 rates are associated with higher default risk.
 
@@ -313,7 +313,7 @@ The empirical default probability is obtained via a mapping function $f(\cdot)$,
 \[
 \text{PD} = f(DD),
 \]
-calibrated from historical default data. This PD can then be used as an input into 
+calibrated from historical default data. In practice, the KMV methodology does not interpret this probability directly as a theoretical PD derived from the Merton model, but rather as an Expected Default Frequency (EDF), which is obtained through empirical calibration based on large historical datasets of observed defaults. This PD can then be used as an input into 
 portfolio credit risk models or pricing applications.
 
 \subsection{Credit Portfolio View}
@@ -353,6 +353,7 @@ structure, typically represented as
 \[
 D_i = \mathbf{1}(Z_i < \Phi^{-1}(PD_i)).
 \]
+It should be noted that the normality assumption applies to the latent variables rather than to the default indicators themselves, which follow a Bernoulli distribution. The copula framework allows flexible modelling of dependence while preserving arbitrary marginal default probabilities.
 It models the dependence structure between credit risks of different entities within a portfolio.
 The Gaussian copula model operates on the premise that the marginal distribution of each credit
 risk is a standard normal distribution. The model then uses a copula function to describe the
@@ -382,6 +383,7 @@ influence of economic factors. It operates within the realm of one-factor models
 systematic factor plays a pivotal role in driving credit events. This factor is typically associated
 with macroeconomic conditions, capturing the broad economic environment that affects borrowers’
 ability to meet their obligations \citep{pyfin2025valuation}.
+Under the Vasicek model, the asymptotic portfolio default rate admits a closed-form solution, which allows analytical computation of loss quantiles and forms the theoretical foundation of the Basel II and Basel III Internal Ratings-Based (IRB) capital requirements.
 % In this framework, default correlations arise naturally from exposure to the common 
 % systematic factor. The model offers closed-form solutions for portfolio loss 
 % quantiles and provides a transparent regulatory standard. However, the assumption 
