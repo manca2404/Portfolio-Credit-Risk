@@ -1,0 +1,34 @@
+# Core LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Bibliography
+*.blg
+*.bcf
+*.run.xml
+
+# Index / glossary
+*.idx
+*.ilg
+*.ind
+*.glg
+*.glo
+*.gls
+
+# LaTeX editors
+*.swp
+*.swo
+*~
+*.bak
+
+# Temporary folders
+_build/
+build/
+latexmk/

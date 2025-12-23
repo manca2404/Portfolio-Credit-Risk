@@ -8,8 +8,10 @@
 \usepackage{geometry}
 \usepackage{setspace}
 \usepackage{url}
+
+\usepackage[authoryear]{natbib}
 \usepackage[hidelinks]{hyperref}
-\usepackage{natbib}
+\usepackage{bookmark}
 
 \geometry{margin=1in}
 \setstretch{1.2}
@@ -68,10 +70,10 @@ portfolio credit risk extends this perspective by explicitly accounting for the
 joint behaviour of multiple obligors, default correlations, and systemic effects. 
 Credit risk measurment involves several key components, such as probability of default (PD),
 exposure at default (EAD), loss given default (LGD), expected loss (EL) and unexpected loss (UL).
-%Financial institutions rely on portfolio credit risk models to quantify expected 
-%loss (EL), unexpected loss (UL), and tail risk measures such as Value-at-Risk (VaR) 
-%and Expected Shortfall (ES), which are essential for economic capital allocation, 
-%regulatory compliance, pricing, and portfolio optimisation \citep{hull2018, mcniel2015}.
+Financial institutions rely on portfolio credit risk models to quantify expected 
+loss (EL), unexpected loss (UL), and tail risk measures such as Value-at-Risk (VaR) 
+and Expected Shortfall (ES), which are essential for economic capital allocation, 
+regulatory compliance, pricing, and portfolio optimisation \citep{hull2018}.
 The paper is based on lecture notes \citep{berk2025}.
 
 \section{Conceptual Foundations of Portfolio Credit Risk}
@@ -174,7 +176,8 @@ unconditional probabilities provide a broader assessment of default likelihood. 
 \subsection{Structural and Reduced-Form Models}
 
 Structural credit risk models originate from the seminal work of 
-\citet{merton1974}. In these models, default occurs when the value of a firm’s 
+%\citet{merton1974}. 
+In these models, default occurs when the value of a firm’s 
 assets falls below a predefined default barrier, usually related to the book or 
 market value of its liabilities. Asset values are assumed to follow a stochastic 
 process, and default is an endogenous outcome of the firm’s capital structure and 
@@ -292,7 +295,8 @@ empirical default probabilities using large historical databases of default even
 The model provides forward-looking and market-based default estimates and has been 
 shown to anticipate changes in credit ratings. However, it requires high-quality 
 market data and relies on simplifying assumptions regarding capital structure, 
-asset volatility, and the timing of default \citep{merton1974}. \\
+asset volatility, and the timing of default 
+%\citep{merton1974}. \\
 
 \textit{Example.} Let firm asset value $V_t$ follow a geometric Brownian motion,
 \[
@@ -520,9 +524,9 @@ may break down.
 
 %\newpage
 
-\nocite{*}
 
-\bibliographystyle{apalike}
+
+\bibliographystyle{plainnat}
 \bibliography{references}
 
 \end{document}
