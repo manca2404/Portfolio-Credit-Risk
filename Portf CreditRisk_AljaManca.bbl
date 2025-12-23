@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{11}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -12,7 +12,7 @@ Ale{\v{s}} Berk.
 
 \bibitem[Bluhm et~al.(2016)Bluhm, Overbeck, and Wagner]{bluhm2016}
 Christian Bluhm, Ludger Overbeck, and Christoph Wagner.
-\newblock \emph{Introduction to Credit Risk Modeling}.
+\newblock \emph{Introduction to credit risk modeling}.
 \newblock Chapman and Hall/CRC, 2 edition, 2016.
 
 \bibitem[Crouhy et~al.(2000)Crouhy, Galai, and Mark]{crouhy2000}
@@ -20,39 +20,53 @@ Michel Crouhy, Dan Galai, and Robert Mark.
 \newblock A comparative analysis of current credit risk models.
 \newblock \emph{Journal of Banking \& Finance}, 24\penalty0 (1--2):\penalty0
   59--117, 2000.
-\newblock Available at:
-  https://pdf.sciencedirectassets.com/271679/1-s2.0-S0378426600X00477/1-s2.0-S0378426699000539/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDIaCXVzLWVhc3QtMSJIMEYCIQDAQW%2FCgfGBpzzrLPGUuLBo5elWQsn8Rr%2BHyHaYa7WdnwIhAMaVZ8uPWlmrkKRIeUBo0SJftO8Pm76K%2Fi%2F70ZuzkeMbKrwFCPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1Igw9lPSIKKf3tX%2BNITYqkAVtl%2BY544U1cgPlpFAfEOb4eba3v1ONEeCPR5xbX9fiOT42r70yLkkysULhoijg1PBZClUZxyLwzuonzJslkqTLciIML1unUT5uu7PElie1%2BRc3yCWPrVQFiS2Gk3%2B11ZNfDNckt7rjfKji1Q2hxUtmSagDLYMlcAK4tuh14hmsJTRlSDoaG4FrE80NQXA90Eou2%2FHIBusdZi%2FjDGBLVTiOpPV9Qp0zIB0qOpsnlpnhE0p0ZsUOAxBUO8WP%2BVsSZdZDbK%2BPulSwR0Xp0KAT06SvovQOSXaIkWweum0S72mWPKlVOTRufmJVvQb9%2FUmMFydHx32yJ29eFyX3x48wH8PRPCxytSNlSGPorTaCW52lD%2BUCFw97du64s%2F03%2BTELx3WTZ7O%2FkIO1XfOsFVQxZMKVfe4t6m%2FJTJEjLjQj%2FwiDkrlIiSmZ0VfRxW2fqIBmTg7EuGu6cctYQE17Bbksc6YU8B7LikKwdlxr1F6Kqtsl8cMNoFg1LlhYae9oTEvgn4hx8HwFsE1PfG8DS1Y1i7o63cRCfEYOWr5FKx9CwF8pqr%2B0xUPJqVpOs77rPj%2FRYtYc9ql50FJnFKd4WcuxWfVLeqJ5fVhrpBD8u2h7NBbvUavNlhYVmE1Ox4JWexC8MYfaxW2cDo5fqISvNh5PswT3wT5WuhHvYZx5tFSwcY535Ml4CaPKlhxgsimpd77kliLrrrn1IZt4npuqGFRAD%2BTUmXQt6bqWU%2F3yH2WVpHvU0LAEF6wpYvEoJCI3haGMQjcjU6H0oB8EXaQnXXjDP91ypzzo0l7cF88OpTXNAir0ibW7iUlJyNu7SJBYAGLpiLZAX5UyKoIps3XSXW06iIeRmncU7H9on1r22kEhqE1RPjCx%2FKXKBjqwAcH4BELatPbF3a2%2F%2BHnVgqvXKg7TzMBL5GYK8iOywMU%2B4IhfiiAYSoYKeEMXbCURVIif2u7o7P1tcVNdJP%2FeeCPJrzu2dri%2FT0TF4EeRjwxwS2PaAUxzYtkd6pNlkkb99hEDUBtc0%2F1gjOBTz8QdC6h2HI7qKz9oVhmGPHI0BpQT2LhFSwsj1qYxaPcUGafVnfnZa4%2B8w5tz2mSf0d8EtJ4N2bIB5bnEZvODXJP0k0KA&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251222T184041Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY5L2OFUCA%2F20251222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7fe3bb1ad98bdaf233aef549ba1b56fbc335ba5b9d03716502193790e4404880&hash=0acd02f3dae63bfd6e4716ff591455a329e6cbd96b73990f6b649e490038b381&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0378426699000539&tid=spdf-5c3d7fd0-aaef-471d-a7c1-1465b7533c56&sid=0ab171ea1b32754c4f29bd49ec7bede97ee8gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0714560556510d00&rr=9b21bfc1ad10ed22&cc=it.
+\newblock \doi{10.1016/S0378-4266(99)00053-9}.
+
+\bibitem[Gordy(2002)]{gordy2002}
+Michael~B. Gordy.
+\newblock A risk-factor model foundation for ratings-based bank capital rules.
+\newblock Technical Report 2002-55, Board of Governors of the Federal Reserve
+  System, October 2002.
+\newblock URL
+  \url{https://www.federalreserve.gov/pubs/feds/2002/200255/200255pap.pdf}.
 
 \bibitem[Hull(2018)]{hull2018}
 John~C. Hull.
-\newblock Risk management and financial institutions, 2018.
-\newblock URL
-  \url{https://dn720002.ca.archive.org/0/items/quant_books/Risk%20Management%20_%20Financial%20Institutions%20-%20J.%20C.%20Hull.pdf}.
+\newblock \emph{Risk management and financial institutions}.
+\newblock Wiley, 5 edition, 2018.
 
 \bibitem[Jarrow and Turnbull(1995)]{jarrow1995}
 Robert~A. Jarrow and Stuart~M. Turnbull.
 \newblock Pricing derivatives on financial securities subject to credit risk.
-\newblock \emph{Journal of Finance}, 50\penalty0 (1):\penalty0 53--85, 1995.
+\newblock \emph{The Journal of Finance}, 50\penalty0 (1):\penalty0 53--85,
+  1995.
 
 \bibitem[{J.P. Morgan}(1997)]{jpm1997}
 {J.P. Morgan}.
 \newblock Creditmetrics technical document.
-\newblock 1997.
+\newblock Technical report, J.P. Morgan, 1997.
+
+\bibitem[McNeil et~al.(2005)McNeil, Frey, and Embrechts]{mcneil2005}
+Alexander~J. McNeil, R{\"u}diger Frey, and Paul Embrechts.
+\newblock \emph{Quantitative risk management: Concepts, techniques and tools}.
+\newblock Princeton University Press, Princeton, NJ, 2005.
+\newblock ISBN 9780691122557.
 
 \bibitem[{PyFin Academy}(2025)]{pyfin2025valuation}
 {PyFin Academy}.
 \newblock Valuation and risk models.
-\newblock \url{https://frmi.netlify.app/valuation_and_risk_models}, 2025.
+\newblock Web page, 2025.
 \newblock URL \url{https://frmi.netlify.app/valuation_and_risk_models}.
 
 \bibitem[Vasicek(2002)]{vasicek2002}
 Oldrich Vasicek.
 \newblock Loan portfolio value.
-\newblock \emph{Risk Magazine}, 15\penalty0 (12):\penalty0 160--162, 2002.
+\newblock \emph{Risk}, 15\penalty0 (12):\penalty0 160--162, 2002.
+\newblock Risk Magazine.
 
-\bibitem[Wilson(1997)]{wilson1997}
+\bibitem[Wilson(1998)]{wilson1998}
 Thomas~C. Wilson.
-\newblock Portfolio credit risk (parts i \& ii).
-\newblock \emph{Risk Magazine}, 1997.
+\newblock Portfolio credit risk.
+\newblock \emph{Economic Policy Review}, 4\penalty0 (3), October 1998.
 
 \end{thebibliography}

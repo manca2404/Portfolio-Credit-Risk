@@ -5,46 +5,46 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: plainnat.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
-Warning--empty journal in jpm1997
-You've used 9 entries,
+Warning--I didn't find a database entry for "wilson1997"
+You've used 11 entries,
             2773 wiz_defined-function locations,
-            646 strings with 8168 characters,
-and the built_in function-call counts, 3279 in all, are:
-= -- 291
-> -- 141
-< -- 7
-+ -- 51
-- -- 42
-* -- 224
-:= -- 515
-add.period$ -- 29
-call.type$ -- 9
-change.case$ -- 41
-chr.to.int$ -- 9
-cite$ -- 19
-duplicate$ -- 165
-empty$ -- 308
-format.name$ -- 53
-if$ -- 682
+            664 strings with 6325 characters,
+and the built_in function-call counts, 4008 in all, are:
+= -- 359
+> -- 181
+< -- 9
++ -- 65
+- -- 54
+* -- 289
+:= -- 648
+add.period$ -- 38
+call.type$ -- 11
+change.case$ -- 51
+chr.to.int$ -- 11
+cite$ -- 22
+duplicate$ -- 203
+empty$ -- 358
+format.name$ -- 67
+if$ -- 826
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 7
-newline$ -- 55
-num.names$ -- 36
-pop$ -- 93
+missing$ -- 10
+newline$ -- 68
+num.names$ -- 44
+pop$ -- 102
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 40
 quote$ -- 0
-skip$ -- 124
+skip$ -- 144
 stack$ -- 0
-substring$ -- 84
-swap$ -- 9
-text.length$ -- 0
+substring$ -- 88
+swap$ -- 13
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 94
-warning$ -- 1
-while$ -- 33
+type$ -- 106
+warning$ -- 0
+while$ -- 39
 width$ -- 0
-write$ -- 122
+write$ -- 158
 (There was 1 warning)
