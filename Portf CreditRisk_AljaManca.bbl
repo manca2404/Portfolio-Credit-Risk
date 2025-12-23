@@ -14,13 +14,14 @@ Bluhm, C., Overbeck, L., and Wagner, C. (2016).
 Crouhy, M., Galai, D., and Mark, R. (2000).
 \newblock A comparative analysis of current credit risk models.
 \newblock {\em Journal of Banking \& Finance}, 24(1--2):59--117.
-\newblock Available at: https://www.ime.usp.br/~rvicente/risco/crouhy.pdf.
+\newblock Available at:
+  https://pdf.sciencedirectassets.com/271679/1-s2.0-S0378426600X00477/1-s2.0-S0378426699000539/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDIaCXVzLWVhc3QtMSJIMEYCIQDAQW%2FCgfGBpzzrLPGUuLBo5elWQsn8Rr%2BHyHaYa7WdnwIhAMaVZ8uPWlmrkKRIeUBo0SJftO8Pm76K%2Fi%2F70ZuzkeMbKrwFCPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1Igw9lPSIKKf3tX%2BNITYqkAVtl%2BY544U1cgPlpFAfEOb4eba3v1ONEeCPR5xbX9fiOT42r70yLkkysULhoijg1PBZClUZxyLwzuonzJslkqTLciIML1unUT5uu7PElie1%2BRc3yCWPrVQFiS2Gk3%2B11ZNfDNckt7rjfKji1Q2hxUtmSagDLYMlcAK4tuh14hmsJTRlSDoaG4FrE80NQXA90Eou2%2FHIBusdZi%2FjDGBLVTiOpPV9Qp0zIB0qOpsnlpnhE0p0ZsUOAxBUO8WP%2BVsSZdZDbK%2BPulSwR0Xp0KAT06SvovQOSXaIkWweum0S72mWPKlVOTRufmJVvQb9%2FUmMFydHx32yJ29eFyX3x48wH8PRPCxytSNlSGPorTaCW52lD%2BUCFw97du64s%2F03%2BTELx3WTZ7O%2FkIO1XfOsFVQxZMKVfe4t6m%2FJTJEjLjQj%2FwiDkrlIiSmZ0VfRxW2fqIBmTg7EuGu6cctYQE17Bbksc6YU8B7LikKwdlxr1F6Kqtsl8cMNoFg1LlhYae9oTEvgn4hx8HwFsE1PfG8DS1Y1i7o63cRCfEYOWr5FKx9CwF8pqr%2B0xUPJqVpOs77rPj%2FRYtYc9ql50FJnFKd4WcuxWfVLeqJ5fVhrpBD8u2h7NBbvUavNlhYVmE1Ox4JWexC8MYfaxW2cDo5fqISvNh5PswT3wT5WuhHvYZx5tFSwcY535Ml4CaPKlhxgsimpd77kliLrrrn1IZt4npuqGFRAD%2BTUmXQt6bqWU%2F3yH2WVpHvU0LAEF6wpYvEoJCI3haGMQjcjU6H0oB8EXaQnXXjDP91ypzzo0l7cF88OpTXNAir0ibW7iUlJyNu7SJBYAGLpiLZAX5UyKoIps3XSXW06iIeRmncU7H9on1r22kEhqE1RPjCx%2FKXKBjqwAcH4BELatPbF3a2%2F%2BHnVgqvXKg7TzMBL5GYK8iOywMU%2B4IhfiiAYSoYKeEMXbCURVIif2u7o7P1tcVNdJP%2FeeCPJrzu2dri%2FT0TF4EeRjwxwS2PaAUxzYtkd6pNlkkb99hEDUBtc0%2F1gjOBTz8QdC6h2HI7qKz9oVhmGPHI0BpQT2LhFSwsj1qYxaPcUGafVnfnZa4%2B8w5tz2mSf0d8EtJ4N2bIB5bnEZvODXJP0k0KA&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20251222T184041Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY5L2OFUCA%2F20251222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7fe3bb1ad98bdaf233aef549ba1b56fbc335ba5b9d03716502193790e4404880&hash=0acd02f3dae63bfd6e4716ff591455a329e6cbd96b73990f6b649e490038b381&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0378426699000539&tid=spdf-5c3d7fd0-aaef-471d-a7c1-1465b7533c56&sid=0ab171ea1b32754c4f29bd49ec7bede97ee8gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0714560556510d00&rr=9b21bfc1ad10ed22&cc=it.
 
-\bibitem[Gordy, 2003]{gordy2003}
-Gordy, M.~B. (2003).
+\bibitem[Gordy, 2002]{gordy2002}
+Gordy, M.~B. (2002).
 \newblock A risk-factor model foundation for ratings-based bank capital rules.
-\newblock {\em Journal of Financial Intermediation}, 12(3):199--232.
-\newblock Available at: https://www.federalreserve.gov/pubs/feds/2002/200255/200255pap.pdf.
+\newblock Technical Report 2002-55, Board of Governors of the Federal Reserve
+  System.
 
 \bibitem[Hull, 2018]{hull2018}
 Hull, J.~C. (2018).
@@ -35,15 +36,12 @@ Jarrow, R.~A. and Turnbull, S.~M. (1995).
 {J.P. Morgan} (1997).
 \newblock Creditmetrics technical document.
 
-\bibitem[McNeil et~al., 2015]{mcniel2015}
-McNeil, A., Frey, R., and Embrechts, P. (2015).
-\newblock {\em Quantitative Risk Management}.
-\newblock Princeton University Press, 2 edition.
-
-\bibitem[Merton, 1974]{merton1974}
-Merton, R.~C. (1974).
-\newblock On the pricing of corporate debt: The risk structure of interest rates.
-\newblock {\em Journal of Finance}, 29(2):449--470.
+\bibitem[McNeil et~al., 2005]{mcneil2005}
+McNeil, A.~J., Frey, R., and Embrechts, P. (2005).
+\newblock {\em Quantitative Risk Management: Concepts, Techniques and Tools}.
+\newblock Princeton University Press, Princeton, NJ.
+\newblock PDF available at Archive.org:
+  https://dn720002.ca.archive.org/0/items/quant_books/Quantitative%20Risk%20Management%20-%20A.%20J.%20McNeil%2C%20R.%20Frey.pdf.
 
 \bibitem[{PyFin Academy}, 2025]{pyfin2025valuation}
 {PyFin Academy} (2025).
