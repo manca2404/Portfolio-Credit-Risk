@@ -73,7 +73,7 @@ exposure at default (EAD), loss given default (LGD), expected loss (EL) and unex
 Financial institutions rely on portfolio credit risk models to quantify expected 
 loss (EL), unexpected loss (UL), and tail risk measures such as Value-at-Risk (VaR) 
 and Expected Shortfall (ES), which are essential for economic capital allocation, 
-regulatory compliance, pricing, and portfolio optimisation \citep{hull2018}.
+regulatory compliance, pricing, and portfolio optimisation \citep{hull2018,mcneil2005}.
 The paper is based on lecture notes \citep{berk2025}.
 
 \section{Conceptual Foundations of Portfolio Credit Risk}
@@ -119,7 +119,7 @@ approaches are computationally efficient and are often used for stress testing a
 high-level scenario analysis, particularly when the focus lies on systemic risk 
 rather than individual exposures. Their main limitation lies in their lack of 
 interpretability and inability to provide borrower-level insights, which restricts 
-their usefulness for detailed credit portfolio management \citep{wilson1997}.
+their usefulness for detailed credit portfolio management \citep{wilson1998}.
 
 \subsection{Default-Mode and Mark-to-Market Models}
 
@@ -176,7 +176,7 @@ unconditional probabilities provide a broader assessment of default likelihood. 
 \subsection{Structural and Reduced-Form Models}
 
 Structural credit risk models originate from the seminal work of 
-%\citet{merton1974}. 
+\citep{merton1974}. 
 In these models, default occurs when the value of a firm’s 
 assets falls below a predefined default barrier, usually related to the book or 
 market value of its liabilities. Asset values are assumed to follow a stochastic 
@@ -296,7 +296,7 @@ The model provides forward-looking and market-based default estimates and has be
 shown to anticipate changes in credit ratings. However, it requires high-quality 
 market data and relies on simplifying assumptions regarding capital structure, 
 asset volatility, and the timing of default 
-%\citep{merton1974}. \\
+\citep{merton1974}. \\
 
 \textit{Example.} Let firm asset value $V_t$ follow a geometric Brownian motion,
 \[
@@ -327,7 +327,7 @@ economy. Portfolio losses are then simulated conditional on macroeconomic
 scenarios. This approach makes Credit Portfolio View particularly well suited for 
 stress testing and scenario analysis. However, its top-down nature limits its 
 ability to capture firm-specific credit risk, and its calibration requires long 
-and reliable macroeconomic time series \citep{wilson1997}. \\
+and reliable macroeconomic time series \citep{wilson1998}. \\
 
 \textit{Example.} Let the default probability for obligor $i$ at time $t$ be modelled using a logit 
 specification,
