@@ -18,17 +18,14 @@ Christian Bluhm, Ludger Overbeck, and Christoph Wagner.
 \bibitem[Crouhy et~al.(2000)Crouhy, Galai, and Mark]{crouhy2000}
 Michel Crouhy, Dan Galai, and Robert Mark.
 \newblock A comparative analysis of current credit risk models.
-\newblock \emph{Journal of Banking \& Finance}, 24\penalty0 (1--2):\penalty0
-  59--117, 2000.
+\newblock \emph{Journal of Banking \& Finance}, 24\penalty0 (1--2):\penalty0 59--117, 2000.
 \newblock \doi{10.1016/S0378-4266(99)00053-9}.
 
 \bibitem[Gordy(2002)]{gordy2002}
 Michael~B. Gordy.
 \newblock A risk-factor model foundation for ratings-based bank capital rules.
-\newblock Technical Report 2002-55, Board of Governors of the Federal Reserve
-  System, October 2002.
-\newblock URL
-  \url{https://www.federalreserve.gov/pubs/feds/2002/200255/200255pap.pdf}.
+\newblock Technical Report 2002-55, Board of Governors of the Federal Reserve System, October 2002.
+\newblock URL \url{https://www.federalreserve.gov/pubs/feds/2002/200255/200255pap.pdf}.
 
 \bibitem[Hull(2018)]{hull2018}
 John~C. Hull.
@@ -38,8 +35,7 @@ John~C. Hull.
 \bibitem[Jarrow and Turnbull(1995)]{jarrow1995}
 Robert~A. Jarrow and Stuart~M. Turnbull.
 \newblock Pricing derivatives on financial securities subject to credit risk.
-\newblock \emph{The Journal of Finance}, 50\penalty0 (1):\penalty0 53--85,
-  1995.
+\newblock \emph{The Journal of Finance}, 50\penalty0 (1):\penalty0 53--85, 1995.
 
 \bibitem[{J.P. Morgan}(1997)]{jpm1997}
 {J.P. Morgan}.
@@ -54,10 +50,8 @@ Alexander~J. McNeil, R{\"u}diger Frey, and Paul Embrechts.
 
 \bibitem[Merton(1974)]{merton1974}
 Robert~C. Merton.
-\newblock On the pricing of corporate debt: The risk structure of interest
-  rates.
-\newblock \emph{The Journal of Finance}, 29\penalty0 (2):\penalty0 449--470,
-  1974.
+\newblock On the pricing of corporate debt: The risk structure of interest rates.
+\newblock \emph{The Journal of Finance}, 29\penalty0 (2):\penalty0 449--470, 1974.
 \newblock ISSN 00221082, 15406261.
 \newblock URL \url{http://www.jstor.org/stable/2978814}.
 

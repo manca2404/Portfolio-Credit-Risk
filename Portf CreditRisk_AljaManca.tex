@@ -136,8 +136,8 @@ for pricing credit-sensitive instruments.
 
 Mark-to-market models extend the analysis by accounting for changes in credit 
 quality before default, typically through rating migrations or credit spread 
-movements. In this setting, portfolio losses may arise even if no default occurs, 
-reflecting deterioration in creditworthiness. CreditMetrics is the most 
+movements. Losses can occur even without defaults, because a worsening credit quality
+makes credit instruments worth less in the market. CreditMetrics is the most 
 well-known example of this approach \citep{jpm1997}. While mark-to-market models 
 provide a more comprehensive and economically meaningful view of credit risk, they 
 require richer datasets, including rating transition matrices and market-based 
@@ -187,7 +187,7 @@ However, they often suffer from unrealistic default timing, as default can occur
 only at specific horizons, and from limited applicability to privately held firms 
 for which market data on equity values and volatility are unavailable.
 
-Reduced-form, or intensity-based, models treat default as an exogenous and 
+Reduced-form, or intensity-based, models treat default as an 
 unpredictable jump process governed by a stochastic default intensity 
 \citep{jarrow1995}. In this framework, default arrives randomly according to a 
 Poisson process, and the probability of default over a given horizon depends on 
