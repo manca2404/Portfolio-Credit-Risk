@@ -20,7 +20,8 @@ Crouhy, M., Galai, D., and Mark, R. (2000).
 Gordy, M.~B. (2003).
 \newblock A risk-factor model foundation for ratings-based bank capital rules.
 \newblock {\em Journal of Financial Intermediation}, 12(3):199--232.
-\newblock Available at: https://www.federalreserve.gov/pubs/feds/2002/200255/200255pap.pdf.
+\newblock Available at:
+  https://www.federalreserve.gov/pubs/feds/2002/200255/200255pap.pdf.
 
 \bibitem[Hull, 2018]{hull2018}
 Hull, J.~C. (2018).
@@ -42,7 +43,8 @@ McNeil, A., Frey, R., and Embrechts, P. (2015).
 
 \bibitem[Merton, 1974]{merton1974}
 Merton, R.~C. (1974).
-\newblock On the pricing of corporate debt: The risk structure of interest rates.
+\newblock On the pricing of corporate debt: The risk structure of interest
+  rates.
 \newblock {\em Journal of Finance}, 29(2):449--470.
 
 \bibitem[{PyFin Academy}, 2025]{pyfin2025valuation}
